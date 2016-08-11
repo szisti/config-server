@@ -1,0 +1,11 @@
+*.iml
+target
+.idea
+log.dir_IS_UNDEFINED
+log.file.path_IS_UNDEFINED
+logs
+.DS_Store
+.classpath
+.project
+.settings
+*.log
