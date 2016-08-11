@@ -30,7 +30,7 @@ http://localhost:8888/test-123/agt
    		name: "https://github.com/szisti/config/test/agt/application.properties",
    		source: {
    			server.port: "8081",
-   			spring.cloud.zookeeper.connect-string: "zookeeper01agt.ew1.vcint.com:2181/discovery"
+   			spring.cloud.zookeeper.connect-string: "zookeeper01agt:2181/discovery"
    		}
    	},
    	{
@@ -55,11 +55,11 @@ http://localhost:8888/test-123-agt.properties
 **Response:**  
 ```
 server.port: 8081
-spring.cloud.zookeeper.connect-string: zookeeper01agt.ew1.vcint.com:2181/discovery
+spring.cloud.zookeeper.connect-string: zookeeper01agt:2181/discovery
 ```
 
 **Expected response:**  
 ```
 server.port: 8082
-spring.cloud.zookeeper.connect-string: zookeeper01agt.ew1.vcint.com:2181/discovery
+spring.cloud.zookeeper.connect-string: zookeeper01agt:2181/discovery
 ```
